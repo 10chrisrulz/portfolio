@@ -59,9 +59,3 @@ All UUID path params are validated (format); `limit`/`offset` are bounded to pre
 - **DB**: Opened read-only for API; no user-supplied SQL; parameterized queries only.
 
 ---
-
-## Build & Run
-
-- **Dev**: `npm run dev` (Next.js dev server).
-- **Prod**: `npm run build` then `npm run start`.
-- **Data**: Ensure `site/data/items.json` and `site/data/item-ownership.db` exist and are in the format expected by the API (see main repo README / data scripts).
