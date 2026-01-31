@@ -66,27 +66,7 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for APIs and data flow.
 
 ---
 
-## Running the Project
-
-**Requirements**: Node.js (LTS), npm.
-
-```bash
-npm install
-npm run dev
-```
-
-**Production:**
-
-```bash
-npm run build
-npm run start
-```
-
-**Data**: Place `items.json` and `item-ownership.db` under `site/data/` as expected by the app (see main repo README for data pipeline).
-
----
-
-## Links (fill in for your portfolio)
+## Links
 
 - **Live site**: https://minez-item-tracker.shotbow.net/
 
